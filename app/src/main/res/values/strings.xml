@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <string name="app_name">Koakh TimeMachine</string>
+  <string name="app_info">Koakh TimeMachine Prototype</string>
+
+  <string name="action_menu_test_progressbar">Notification ProgressBar</string>
+  <string name="action_menu_fileinfo_read_json">Read FileInfo Gson</string>
+  <string name="action_menu_fileinfo_write_json">Write FileInfo Gson</string>
+  <string name="action_menu_service_start">Start Service</string>
+  <string name="action_menu_service_stop">Stop Service</string>
+  <string name="action_menu_scan_content_start">Start Scan</string>
+  <string name="action_menu_scan_content_stop">Cancel Scan</string>
+  <string name="action_menu_upload_content_start">Start Upload</string>
+  <string name="action_menu_upload_content_stop">Cancel Upload</string>
+  <string name="action_menu_service_get_random_number">Test Bind</string>
+  <string name="action_menu_quit">Quit</string>
+
+  <string name="global_service_running">Running</string>
+  <string name="global_service_action_info">Info</string>
+  <string name="global_service_action_sync">Sync</string>
+  <string name="global_service_action_media">Media</string>
+  <string name="global_file">File</string>
+  <string name="global_file_size">File Size</string>
+  <string name="global_file_upload">File Upload</string>
+  <string name="global_upload_in_progress">Upload in progress</string>
+  <string name="global_upload_complete">Upload complete</string>
+  <string name="global_upload_cancelled">Upload Cancelled by User</string>
+  <string name="global_uploading">Uploading</string>
+  <string name="global_scan_complete">Scan complete</string>
+  <string name="global_scan_cancelled">Scan Cancelled by User</string>
+  <string name="global_used_local_md5">Used Local MD5</string>
+  <string name="global_generating_local_md5">Generating Local MD5</string>
+  <string name="global_generating_remote_md5">Generating Remote MD5</string>
+
+  <string name="global_directory_invalid_directory">Invalid Directory %s</string>
+  <string name="global_directory_no_files_found">No files found in Directory %s</string>
+  <string name="global_directory_finish_scan" formatted="false">Directory %s scanned. Found %d files</string>
+
+</resources>

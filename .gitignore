@@ -1,0 +1,11 @@
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+.bak
+TODO.md
+NOTES.md
+ENV.bat
+credentials.properties

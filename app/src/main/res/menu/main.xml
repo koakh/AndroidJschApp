@@ -1,0 +1,85 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".MainActivity">
+
+  <item
+    android:id="@+id/action_menu_test_progressbar"
+    android:orderInCategory="100"
+    android:showAsAction="never"
+    android:title="@string/action_menu_test_progressbar"
+    android:visible="false"/>
+
+  <item
+    android:id="@+id/action_menu_fileinfo_write_json"
+    android:orderInCategory="100"
+    android:showAsAction="never"
+    android:title="@string/action_menu_fileinfo_write_json"
+    android:visible="false"/>
+
+  <item
+    android:id="@+id/action_menu_fileinfo_read_json"
+    android:orderInCategory="100"
+    android:showAsAction="never"
+    android:title="@string/action_menu_fileinfo_read_json"
+    android:visible="false"/>
+
+  <item
+    android:id="@+id/action_menu_service_start"
+    android:orderInCategory="100"
+    android:showAsAction="never"
+    android:title="@string/action_menu_service_start"
+    android:enabled="false"/>
+
+  <item
+    android:id="@+id/action_menu_service_stop"
+    android:orderInCategory="100"
+    android:showAsAction="never"
+    android:title="@string/action_menu_service_stop"
+    android:enabled="false"/>
+
+  <item
+    android:id="@+id/action_menu_scan_content_start"
+    android:orderInCategory="100"
+    android:showAsAction="never"
+    android:title="@string/action_menu_scan_content_start"
+    android:enabled="false"
+    android:visible="true"/>
+
+  <item
+    android:id="@+id/action_menu_scan_content_stop"
+    android:orderInCategory="100"
+    android:showAsAction="never"
+    android:title="@string/action_menu_scan_content_stop"
+    android:enabled="false"
+    android:visible="true"/>
+
+  <item
+    android:id="@+id/action_menu_upload_content_start"
+    android:orderInCategory="100"
+    android:showAsAction="never"
+    android:title="@string/action_menu_upload_content_start"
+    android:enabled="false"
+    android:visible="true"/>
+
+  <item
+    android:id="@+id/action_menu_upload_content_stop"
+    android:orderInCategory="100"
+    android:showAsAction="never"
+    android:title="@string/action_menu_upload_content_stop"
+    android:enabled="false"
+    android:visible="true"/>
+
+  <item
+    android:id="@+id/action_menu_service_get_random_number"
+    android:orderInCategory="100"
+    android:showAsAction="never"
+    android:title="@string/action_menu_service_get_random_number"
+    android:enabled="false"/>
+
+  <item
+    android:id="@+id/action_menu_quit"
+    android:orderInCategory="100"
+    android:showAsAction="never"
+    android:title="@string/action_menu_quit"/>
+
+</menu>

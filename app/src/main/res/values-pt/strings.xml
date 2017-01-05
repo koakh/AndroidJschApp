@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <string name="global_directory_invalid_directory">Directoria inválida %s</string>
+  <string name="global_directory_no_files_found">Não foram encontrados ficheiros da directoria %s</string>
+
+</resources>
