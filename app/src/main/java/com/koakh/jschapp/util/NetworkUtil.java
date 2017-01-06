@@ -4,6 +4,8 @@ import android.content.Context;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 
+import com.koakh.jschapp.R;
+
 //Android Internet Connection Status & Network Change Receiver Example
 //http://viralpatel.net/blogs/android-internet-connection-status-network-change/
 public class NetworkUtil {
@@ -32,20 +34,20 @@ public class NetworkUtil {
   public static String getConnectivityStatusString(Context context) {
 
     int conn = NetworkUtil.getConnectivityStatus(context);
-    String status = getConnectivityStatusString(conn);
+    String status = getConnectivityStatusString(context, conn);
 
     return status;
   }
 
-  public static String getConnectivityStatusString(int conn) {
+  public static String getConnectivityStatusString(Context context, int conn) {
 
     String status = null;
     if (conn == NetworkUtil.TYPE_WIFI) {
-      status = "Wifi enabled";
+      status = context.getResources().getString(R.string.global_connectivity_status_wifi);//"Wifi enabled";
     } else if (conn == NetworkUtil.TYPE_MOBILE) {
-      status = "Mobile data enabled";
+      status = context.getResources().getString(R.string.global_connectivity_status_mobile);//"Mobile data enabled";
     } else if (conn == NetworkUtil.TYPE_NOT_CONNECTED) {
-      status = "Not connected to Internet";
+      status = context.getResources().getString(R.string.global_connectivity_status_not_connected);//"Not connected to Internet";
     }
     return status;
   }

@@ -37,4 +37,8 @@
   <string name="global_directory_no_files_found">No files found in Directory %s</string>
   <string name="global_directory_finish_scan" formatted="false">Directory %s scanned. Found %d files</string>
 
+  <string name="global_connectivity_status_wifi">WiFi</string>
+  <string name="global_connectivity_status_mobile">Mobile</string>
+  <string name="global_connectivity_status_not_connected">Disconnected</string>
+
 </resources>
