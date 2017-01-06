@@ -16,7 +16,9 @@ public class NotificationReceiver extends BroadcastReceiver {
 
   @Override
   public void onReceive(Context context, Intent intent) {
+
     String action = intent.getAction();
+
     if (ServiceUpload.ACTION_INFO.equals(action)) {
       Toast.makeText(context, "ACTION_INFO", Toast.LENGTH_SHORT).show();
     }

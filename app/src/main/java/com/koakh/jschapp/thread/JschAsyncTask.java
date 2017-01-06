@@ -122,7 +122,7 @@ public class JschAsyncTask extends AsyncTask<ArrayList<String>, Object, Boolean>
     );
 
 
-
+    //Send broadcast to update UI
     Intent intent = new Intent("my-event");
     // add data
     intent.putExtra("message", contentText);

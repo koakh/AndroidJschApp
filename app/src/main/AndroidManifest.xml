@@ -23,6 +23,7 @@
     <!-- Services -->
     <service
       android:name=".background.ServiceUpload"/>
+    <!-- Warning ServiceExample uses separated process, this way we can get IBinder -->
     <service
       android:name=".background.ServiceExample"
       android:enabled="true"

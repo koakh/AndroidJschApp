@@ -108,7 +108,6 @@ public class MainActivity extends Activity {
     //Get Application Singleton
     mApp = Singleton.getInstance();
     mApp = ((Singleton) this.getApplicationContext());
-
     //Assign Context
     mApp.setAppContext(this);
 
@@ -177,7 +176,7 @@ public class MainActivity extends Activity {
     super.onResume();
 
     // Register mMessageReceiver to receive messages.
-    //  Required com.android.support:support-vx
+    // Required com.android.support:support-vx
     LocalBroadcastManager
       .getInstance(this)
       .registerReceiver(mMessageReceiver, new IntentFilter("my-event"));
@@ -336,6 +335,7 @@ mFileList = mApp.getFileList();
   //Services
 
   public void startServiceExample() {
+
     mIntentServiceExample.putExtra("ImageFileURL", "http://www.codeproject.com/App_Themes/CodeProject/Img/logo125x125.gif");
     mIntentServiceExample.putExtra("FileName", "bob.gif");
     mIntentServiceExample.putExtra("FileList", mFileList);
@@ -343,11 +343,13 @@ mFileList = mApp.getFileList();
   }
 
   public void stopServiceExample() {
+
     stopService(mIntentServiceExample);
   }
 
   //TODO: Remove This Function : Removed Now is Inside of Service
   public void startServiceUpload() {
+
     try {
       //TODO: Change mFileList to contentMap
       //TODO: Remove FileList From Here
