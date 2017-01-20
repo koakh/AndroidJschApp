@@ -121,14 +121,11 @@ public class JschAsyncTask extends AsyncTask<ArrayList<String>, Object, Boolean>
       speed
     );
 
-
     //Send broadcast to update UI
     Intent intent = new Intent("my-event");
     // add data
     intent.putExtra("message", contentText);
     LocalBroadcastManager.getInstance(mContext).sendBroadcast(intent);
-
-
 
     //Used to Debug Upload Service
     //Log.i(mApp.TAG, contentText);
@@ -181,6 +178,7 @@ public class JschAsyncTask extends AsyncTask<ArrayList<String>, Object, Boolean>
    * @param pProgress
    */
   public void publishProgressFromOutside(Object[] pProgress) {
+
     publishProgress(pProgress);
   }
 }
